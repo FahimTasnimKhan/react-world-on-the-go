@@ -1,6 +1,11 @@
-import React from "react";
+import React, { use } from "react";
 
-const Countries = () => {
+const Countries = ({ CountriesPromise }) => {
+  const countriesData = use(CountriesPromise);
+  const countries = countriesData.countries;
+  console.log(countries);
+  countries.map((country) => console.log(country));
+
   return <div></div>;
 };
 
