@@ -1,0 +1,25 @@
+.country {
+  border: 2px solid salmon;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: stretch;
+}
+
+.btn {
+  padding: 20px;
+  color: white;
+  background-color: black;
+  margin: 10px;
+  border-radius: 20px;
+  margin-top: auto;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  margin-top: auto;
+}

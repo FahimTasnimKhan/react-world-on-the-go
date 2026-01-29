@@ -1,0 +1,16 @@
+.countries {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: stretch;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.heading-center {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+}
