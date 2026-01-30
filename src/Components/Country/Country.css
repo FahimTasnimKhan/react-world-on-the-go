@@ -9,13 +9,18 @@
   align-items: stretch;
 }
 
+.country-visited {
+  background-color: green;
+}
+
 .btn {
-  padding: 20px;
+  padding: 2px;
   color: white;
   background-color: black;
   margin: 10px;
   border-radius: 20px;
   margin-top: auto;
+  font-size: 20px;
 }
 
 .image img {
